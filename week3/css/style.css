@@ -1,0 +1,59 @@
+body,html{
+    display: flex;
+    justify-content: center;
+}
+#container{
+    width: 1000px;
+    padding: 10px;
+    border: 1px solid blueviolet;
+}
+h1{
+    font-family: monospace;
+    color: hotpink;
+    font-size: 65px;
+}
+header, nav, section, footer{
+    border: 1px solid palevioletred;
+    width: 100%;
+}
+header{
+    height: 130px;
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace; color: cyan; 
+}
+h2{
+    font-family: monospace;
+    color: deeppink;
+    
+}
+.nav-list{
+    list-style: none;
+    display: inline;
+    text-align: center;
+}
+.btn:link{
+    width: 100px;
+    text-decoration: none;
+    height: 50px;
+    border: 2px solid rgb(221, 160, 183);
+}
+.btn:visited{
+    color: rgb(124, 0, 52);
+    border: 1px solid palevioletred;
+}
+.btn:hover{
+    background-color: rgb(205, 255, 218);
+}
+#nav-list-links{
+    
+}
+footer{
+    text-align: center;
+    font-family: monospace;
+    color: darkseagreen;
+    background-color: antiquewhite;
+}
