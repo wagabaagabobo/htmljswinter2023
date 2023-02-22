@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <h1> example </h1>
+    <button onclick="dataPrompt()"> press this </button>
+    <script>
+        var name = "Robot";
+        var MyButton = document.querySelector("button");
+        MyButton.addEventListener("click", dataPrompt);
+
+        function dataPrompt() {
+            alert(`My name is ${name}`);
+            var yourName = prompt("Please enter your name.", "Enter name here");
+            alert(`Your name is ${yourName}`);
+            var yourLastName = prompt("Please enter your last name", "Enter last name here");
+            alert(`Hi there ${yourName} ${yourLastName}...`);
+            var firstNumber = prompt("Enter the first number", "first number");
+            var secondNumber = prompt("Enter the second number", "second number");
+            var result = Number(firstNumber) + Number(secondNumber);
+            alert(`The result is ${result}.`);
+            console.log(`Your name is ${yourName}`);
+            console.log(`Nice to meet you ${yourName} ${yourLastName}`);
+            console.log(`The result is ${result}`);
+            c
+
+        }
+
+        dataPrompt();
+    </script>
+</body>
